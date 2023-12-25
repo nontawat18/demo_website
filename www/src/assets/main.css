@@ -1,0 +1,226 @@
+@import "./base.css";
+@font-face {
+    font-family: "Mitr_Bold";
+    src: local("Mitr_Bold"), url(../assets/fonts/Mitr/Mitr-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mitr_SemiBold";
+    src: local("Mitr_SemiBold"), url(../assets/fonts/Mitr/Mitr-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mitr_Medium";
+    src: local("Mitr_Medium"), url(../assets/fonts/Mitr/Mitr-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mitr_Light";
+    src: local("Mitr_Light"), url(../assets/fonts/Mitr/Mitr-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mitr_Regular";
+    src: local("Mitr_Regular"), url(../assets/fonts/Mitr/Mitr-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito_ExtraBold";
+    src: local("Nunito_ExtraBold"), url(../assets/fonts/Nunito/Nunito-ExtraBold.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mitr_Light";
+    /* color: black; */
+}
+
+a {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.v-application a {
+    color: black !important;
+    text-decoration: none;
+}
+
+@media screen and (max-width:393px) {}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+    .header-title-product {
+        display: block;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1100px) {
+    .container {
+        max-width: 1000px !important;
+    }
+}
+
+@media (min-width: 1101px) {
+    .container {
+        max-width: 1100px !important;
+    }
+}
+
+@media (min-width: 1264px) {
+    .container {
+        max-width: 1300px !important;
+    }
+}
+
+span {
+    font-size: 16px;
+}
+
+main {
+    background-color: white;
+}
+
+.demo {
+    font-size: 26px;
+    color: white;
+    font-family: "Mitr_Light";
+}
+
+.demo-login {
+    font-size: 26px;
+    color: #6a00a3;
+    font-family: "Mitr_Light";
+}
+
+.website {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffce00;
+    font-family: "Mitr_Light";
+}
+
+.nav-card {
+    background: rgb(87, 52, 180);
+    background: linear-gradient(90deg, rgba(87, 52, 180, 1) 0%, rgba(62, 119, 202, 1) 35%, rgba(23, 221, 236, 1) 100%);
+    border-bottom-left-radius: 25% !important;
+    border-bottom-right-radius: 25%;
+}
+
+.discover {
+    color: #efeeee;
+    font-family: "Mitr_Light";
+}
+
+.demo-web {
+    color: #efeeee;
+    font-family: "Mitr_Light";
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.lorem {
+    color: #efeeee;
+    font-family: "Mitr_Light";
+}
+
+.text-card {
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: "Mitr_Light";
+    color: #5f5e5e;
+}
+
+.card-all {
+    position: relative;
+    transform: translate(0%, -30%);
+}
+
+.work-with-us {
+    font-family: "Mitr_Light";
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.demo-work-with-us {
+    font-family: "Mitr_Light";
+    background-color: #6a00a3;
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.demo-span {
+    font-family: "Mitr_Light";
+    color: #5f5e5e;
+}
+
+.drag-drop {
+    width: 100%;
+    text-align: center;
+    border: dashed 2px #6a00a3;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn-browse {
+    border: solid 1px #6a00a3;
+    padding: 5px;
+    color: #6a00a3;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    width: 80px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-browse:hover {
+    background-color: #f5fbff;
+}
+
+.dropzone-container {
+    padding: 4rem;
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+}
+
+.hidden-input {
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.btn {
+    background-color: #6a00a3 !important;
+    height: 40px !important;
+    width: 20px !important;
+    padding-top: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.v-toolbar__content,
+.v-toolbar__extension {
+    padding: 0px 0px !important;
+}
+
+thead.v-data-table-header {
+    background-color: #6a00a3;
+    color: white !important;
+}
+
+th {
+    color: white !important;
+    font-weight: bold !important;
+}
